@@ -19,8 +19,16 @@ Intermittently, images are duplicated.
 
 In the folder Example errors, there are an example of one run of the app. Images seem to be wrong approximatly 1/30th of the time. Sometimes, I have clicked the button 100 time and nothing goes wrong.
 
+### Errors
 
-# Versions
+Video of error here
+
+https://danny-smilecomputersolutions.tinytake.com/msc/NzgyMzM4OF8yMDg4NDM4Ng
+
+Shows intermisstently incorrect image displaying
+
+
+## Versions
 
 This project was created on a fresh machine with Maui project created from Visual Studio 17.4.4, Version shown below.
 
