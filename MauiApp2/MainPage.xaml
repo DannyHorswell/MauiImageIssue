@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp2"
+             x:Class="MauiApp2.MainPage">
+
+    <Grid>
+        <VerticalStackLayout>
+            <CollectionView x:Name="ImageCollectionView" ItemsSource="{Binding ImageSources}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <local:ImageControl />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="End" VerticalOptions="Start">
+            <Label Text="Times Clicked" />
+            <Label x:Name="TimesClicked" Text="0" />
+            <Button Text="ReloadImages" Clicked="Button_Clicked" ></Button>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
